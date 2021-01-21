@@ -1,0 +1,89 @@
+
+
+
+
+.uno
+{
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+
+.dos
+{
+	font-family: courier;
+	font-size: 30px;
+}
+.cuatro
+{
+background-color: red;
+font-family: lucida console;
+font-size: 40px;
+background-color: #B5E0F0;
+ border: 3px solid black;
+border-radius: 10%;
+padding: 20px 20px 10px 10px;
+}
+
+.cinco
+{
+	background-color: #FCE8AC;
+	;
+}
+.seis
+{
+	opacity: 0;
+}
+ul, ol {
+				list-style:none;
+			}
+
+			.tiki
+			{
+				position: relative;
+				right: 150px;
+				display: inline;
+
+
+			}
+			
+			.tiki > li {
+				float:left;
+			}
+			
+			.tiki li a {
+				background-color:#FFAB4D;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+				width: 200px;
+				height: 50px;
+				font-family: courier;
+	            font-size: 30px;
+	            
+			}
+			
+			.tiki li a:hover {
+				background-color:#FF8D0D;
+			}
+			
+			.tiki li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.tiki li:hover > ul {
+				display:block;
+			}
+			
+			.tiki li ul li {
+				position:relative;
+			}
+			
+			.tiki li ul li ul {
+				right:-140px;
+				top:0px;
+			}
