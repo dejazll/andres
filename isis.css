@@ -29,7 +29,7 @@ padding: 20px 20px 10px 10px;
 .cinco
 {
 	background-color: #FCE8AC;
-	opacity: 0.75;
+	opacity: 0.9;
 	;
 }
 .seis
@@ -55,7 +55,6 @@ ul, ol {
 			
 			.tiki li a {
 				background-color:#FFAB4D;
-				color:#000000;
 				text-decoration:none;
 				padding:10px 12px;
 				display:block;
